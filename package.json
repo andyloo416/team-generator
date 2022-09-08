@@ -1,0 +1,21 @@
+{
+  "name": "team",
+  "version": "1.0.0",
+  "description": "This is generating the name cards of each member",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.2"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}

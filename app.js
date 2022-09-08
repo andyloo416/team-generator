@@ -56,11 +56,11 @@ const chooseNext = () => {
       },
     ])
     .then((response) => {
-      if ((response.role = "new Engineer")) {
+      if (response.role == "new Engineer") {
         engineerPrompt();
-      } else if ((response.role = "new Manager")) {
+      } else if (response.role == "new Manager") {
         managerPrompt();
-      } else if ((response.role = "new Intern")) {
+      } else if (response.role == "new Intern") {
         internPrompt();
       } else {
         fs.writeFileSync("./createHTML.html");
