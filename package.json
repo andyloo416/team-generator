@@ -1,21 +1,28 @@
 {
-  "name": "team",
+  "name": "team-generator",
   "version": "1.0.0",
-  "description": "This is generating the name cards of each member",
-  "main": "index.js",
+  "description": "This CLI program generates an HTML file that displays information for a software developer team based on user input.",
+  "main": "app.js",
   "directories": {
     "lib": "lib",
-    "test": "tests"
+    "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch"
   },
-  "author": "",
-  "license": "MIT",
+  "keywords": [
+    "team",
+    "generator",
+    "cli",
+    "input",
+    "html",
+    "developer",
+    "command",
+    "node"
+  ],
+  "author": "Andy Loo",
+  "license": "ISC",
   "devDependencies": {
-    "jest": "^29.0.2"
-  },
-  "dependencies": {
-    "inquirer": "^8.2.4"
+    "jest": "^24.9.0"
   }
 }
